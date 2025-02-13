@@ -4,14 +4,9 @@ import { Alert, Typography, Container, Snackbar, Box } from "@mui/material";
 import Envelope from "./components/Envelope/Envelope";
 
 const ALERT_MESSAGES = [
-  "Incorrect secret word",
-  "Try again",
+  "nmms amor como no adivinaste?",
   "You shall not pass",
-  "Ups! Incorrect",
-  "Keep trying",
-  "Come on....",
-  "It a simple word",
-  "Really?"
+  "piensale un poquito más"
 ];
 
 const App = () => {

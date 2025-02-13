@@ -41,7 +41,7 @@ const SecretModal = ({ open, handleOpen, checkSecret }) => {
                         },
                     }}
                     fullWidth
-                    label="Secret word"
+                    label="Palabra Secreta"
                     variant="outlined"
                     value={secret}
                     onChange={(e) => setSecret(e.target.value)}
