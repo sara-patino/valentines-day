@@ -50,7 +50,7 @@ const App = () => {
         }}>
           <Envelope />
           <Typography sx={{mt: 2}} align="center">
-            Click on the envelope to open it
+            Haz click en el sobre para abrir
           </Typography>
         </Box>
       )}

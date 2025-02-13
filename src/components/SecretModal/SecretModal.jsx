@@ -3,13 +3,10 @@ import { useState } from "react";
 import { InfoOutlined } from "@mui/icons-material";
 
 const HINTS = [
-    "It's something you have",
-    "I've called you that way",
-    "It's in Spanish",
-    "I think you like it when I call you that",
-    "It makes you stand out",
-    "It's one of your caracteristics",
-    "It covers many parts of your body",
+    "es algo que eres",
+    "es tu apodo favorito",
+    "empieza con b",
+    "eres mi..."
 ];
 
 const SecretModal = ({ open, handleOpen, checkSecret }) => {
@@ -27,7 +24,7 @@ const SecretModal = ({ open, handleOpen, checkSecret }) => {
         <Dialog
             open={open}
         >
-            <DialogTitle>🔒 Enter the secret word</DialogTitle>
+            <DialogTitle>🔒 Inserta la palabra secreta</DialogTitle>
             <DialogContent>
                 <TextField
                     sx={{
@@ -58,7 +55,7 @@ const SecretModal = ({ open, handleOpen, checkSecret }) => {
                     }}
                     onClick={() => checkSecret(secret)}
                 >
-                    Check
+                    Verificar
                 </Button>
                 <Box sx={{
                     mt: 2,
